@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+   
+   
+
+}
+.leftnav{
+    display: flex;
+    width: fit-content; 
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items:center ;
+    scrollbar-arrow-color: tr;
+}
+.rightnav{
+    display: flex;
+width: fit-content; 
+background-color: rgb(255, 255, 255);
+justify-content: space-between;
+align-items:center ;
+}
+.centernav{
+    display: flex;
+    width: fit-content; 
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items:center ;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.secleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.links{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: 11px;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.secright{
+   
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+.row1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.vid{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.vid:hover{
+    .video{
+        zoom: 102%;
+        border-radius: 0;
+    }
+}
+.video{
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.dicrip{
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    
+}
